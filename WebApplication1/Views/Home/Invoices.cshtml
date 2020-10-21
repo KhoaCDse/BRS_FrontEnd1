@@ -1,0 +1,415 @@
+﻿
+@{
+    ViewData["Title"] = "Invoices";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div class="card card-table">
+        <div class="card-body">
+
+            <!-- Invoice Table -->
+            <div class="table-responsive">
+                <table class="table table-hover table-center mb-0">
+                    <thead>
+                        <tr>
+                            <th>Invoice No</th>
+                            <th>Customer</th>
+                            <th>Amount</th>
+                            <th>Paid On</th>
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0010</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Richard Wilson <span>#PT0016</span></a>
+                                </h2>
+                            </td>
+                            <td>$450</td>
+                            <td>14 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a class="btn btn-sm bg-info-light" onclick="myView1()">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0009</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Charlene Reed <span>#PT0001</span></a>
+                                </h2>
+                            </td>
+                            <td>$200</td>
+                            <td>13 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0008</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Travis Trimble <span>#PT0002</span></a>
+                                </h2>
+                            </td>
+                            <td>$100</td>
+                            <td>12 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0007</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Carl Kelly <span>#PT0003</span></a>
+                                </h2>
+                            </td>
+                            <td>$350</td>
+                            <td>11 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0006</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Michelle Fairfax <span>#PT0004</span></a>
+                                </h2>
+                            </td>
+                            <td>$275</td>
+                            <td>10 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0005</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Gina Moore <span>#PT0005</span></a>
+                                </h2>
+                            </td>
+                            <td>$600</td>
+                            <td>9 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0004</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Elsie Gilley <span>#PT0006</span></a>
+                                </h2>
+                            </td>
+                            <td>$50</td>
+                            <td>8 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0003</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Joan Gardner <span>#PT0007</span></a>
+                                </h2>
+                            </td>
+                            <td>$400</td>
+                            <td>7 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0002</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Daniel Griffing <span>#PT0008</span></a>
+                                </h2>
+                            </td>
+                            <td>$550</td>
+                            <td>6 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <a href="invoice-view.html">#INV-0001</a>
+                            </td>
+                            <td>
+                                <h2 class="table-avatar">
+                                    <a href="customer-profile.html" class="avatar avatar-sm mr-2">
+                                        <img class="avatar-img rounded-circle" src="~/images/user.jpg" alt="User Image">
+                                    </a>
+                                    <a href="customer-profile.html">Walter Roberson <span>#PT0009</span></a>
+                                </h2>
+                            </td>
+                            <td>$100</td>
+                            <td>5 Nov 2019</td>
+                            <td class="text-right">
+                                <div class="table-action">
+                                    <a href="invoice-view.html" class="btn btn-sm bg-info-light">
+                                        <i class="far fa-eye"></i> View
+                                    </a>
+                                    <a href="javascript:void(0);" class="btn btn-sm bg-primary-light">
+                                        <i class="fas fa-print"></i> Print
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- /Invoice Table -->
+
+        </div>
+    </div>
+
+
+
+    <div class="invoice-content" style="width:750px" id="Invoice">
+        <div class="invoice-item">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="invoice-logo">
+                        <img src="~/images/your_logo_here.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <p class="invoice-details">
+                        <strong>Order:</strong> #00124 <br>
+                        <strong>Issued:</strong> 20/07/2020
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Invoice Item -->
+        <div class="invoice-item">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="invoice-info">
+                        <strong class="customer-text">Invoice From</strong>
+                        <p class="invoice-details invoice-details-two">
+                            Car XXXXXXXX <br>
+                            806  Twin Willow Lane, Old Forge,<br>
+                            Newyork, USA <br>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="invoice-info invoice-info2">
+                        <strong class="customer-text">Invoice To</strong>
+                        <p class="invoice-details">
+                            Walter Roberson <br>
+                            299 Star Trek Drive, Panama City, <br>
+                            Florida, 32405, USA <br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Invoice Item -->
+        <!-- Invoice Item -->
+        <div class="invoice-item">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="invoice-info">
+                        <strong class="customer-text">Payment Method</strong>
+                        <p class="invoice-details invoice-details-two">
+                            Debit Card <br>
+                            XXXXXXXXXXXX-2541 <br>
+                            HDFC Bank<br>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Invoice Item -->
+        <!-- Invoice Item -->
+        <div class="invoice-item invoice-table-wrap">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="table-responsive">
+                        <table class="invoice-table table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>Description</th>
+                                    <th class="text-center">Quantity</th>
+                                    <th class="text-center">VAT</th>
+                                    <th class="text-right">Total</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Car Pickup service</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">$0</td>
+                                    <td class="text-right">$100</td>
+                                </tr>
+                                <tr>
+                                    <td>Car Booking</td>
+                                    <td class="text-center">1</td>
+                                    <td class="text-center">$0</td>
+                                    <td class="text-right">$250</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col-md-6 col-xl-4 ml-auto">
+                    <div class="table-responsive">
+                        <table class="invoice-table-two table">
+                            <tbody>
+                                <tr>
+                                    <th>Subtotal:</th>
+                                    <td><span>$350</span></td>
+                                </tr>
+                                <tr>
+                                    <th>Discount:</th>
+                                    <td><span>-10%</span></td>
+                                </tr>
+                                <tr>
+                                    <th>Total Amount:</th>
+                                    <td><span>$315</span></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Invoice Item -->
+        <!-- Invoice Information -->
+        <div class="other-info">
+            <h4>Other information</h4>
+            <p class="text-muted mb-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero.</p>
+        </div>
+        <!-- /Invoice Information -->
+
+    </div>
+
+
+    <script>
+    function myView1() {
+        var x = document.getElementById("Invoice");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+        } else {
+            x.style.display = "none";
+        }
+    }
+    </script>
