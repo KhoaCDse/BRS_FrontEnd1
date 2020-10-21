@@ -67,7 +67,7 @@ using WebApplication1.Models;
             WriteLiteral("<!DOCTYPE html>\r\n<html lang=\"en\">\r\n\r\n");
             EndContext();
             BeginContext(37, 1394, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d44e888f02464eca922e3b5e32d0f156", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4cbb139b09d04587b23b8bf58813bf71", async() => {
                 BeginContext(43, 1381, true);
                 WriteLiteral(@"
 
@@ -123,12 +123,12 @@ using WebApplication1.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(1435, 8268, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4a1b67e8e5ef43118a323d2538d63a75", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9ca919f69be346b6b469c981f6b4a699", async() => {
                 BeginContext(1455, 241, true);
                 WriteLiteral("\r\n\r\n    <!-- Page Wrapper -->\r\n    <div id=\"wrapper\">\r\n\r\n        <!-- Sidebar -->\r\n        <ul class=\"navbar-nav bg-gradient-primary sidebar sidebar-dark accordion\" id=\"accordionSidebar\">\r\n\r\n            <!-- Sidebar - Brand -->\r\n            ");
                 EndContext();
                 BeginContext(1696, 368, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b0fd2e3344c6483f86c149137f98ed2b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "614a1c2e702f45ea8e55ec947ce68385", async() => {
                     BeginContext(1823, 237, true);
                     WriteLiteral("\r\n                <div class=\"sidebar-brand-icon rotate-n-15\">\r\n                    <i class=\"fas fa-laugh-wink\"></i>\r\n                </div>\r\n                <div class=\"sidebar-brand-text mx-3\">SB Admin <sup>2</sup></div>\r\n            ");
                     EndContext();
@@ -155,7 +155,7 @@ using WebApplication1.Models;
                 WriteLiteral("\r\n\r\n            <!-- Divider -->\r\n            <hr class=\"sidebar-divider my-0\">\r\n\r\n            <!-- Nav Item - Dashboard -->\r\n            <li class=\"nav-item active\">\r\n                ");
                 EndContext();
                 BeginContext(2248, 211, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b9742f0f16dc4cc0b0d8b22731823ba0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8a7821f152fd4d09b9766649fa2fa358", async() => {
                     BeginContext(2326, 129, true);
                     WriteLiteral("\r\n                    <i class=\"fas fa-fw fa-tachometer-alt\"></i>\r\n                    <span>Bus Booking</span>\r\n                ");
                     EndContext();
@@ -244,7 +244,7 @@ using WebApplication1.Models;
                         ");
                 EndContext();
                 BeginContext(5493, 87, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d64c709bda0f4020adfbed6e808fce88", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "574314054c5d4859a91453e492c9e398", async() => {
                     BeginContext(5571, 5, true);
                     WriteLiteral("Login");
                     EndContext();
@@ -271,7 +271,7 @@ using WebApplication1.Models;
                 WriteLiteral("\r\n                        ");
                 EndContext();
                 BeginContext(5606, 91, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "30a0075e3319453b8f6ba123db23039e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ca195808e7a54934849178988f1b938c", async() => {
                     BeginContext(5685, 8, true);
                     WriteLiteral("Register");
                     EndContext();
@@ -310,7 +310,7 @@ using WebApplication1.Models;
                 ");
                 EndContext();
                 BeginContext(6256, 202, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "80da4ad2e7ed4e39a5137b618b271015", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f6c5ad5f97cc40139307c32dc6dac02c", async() => {
                     BeginContext(6332, 122, true);
                     WriteLiteral("\r\n                    <i class=\"fas fa-fw fa-chart-area\"></i>\r\n                    <span>Invoices</span>\r\n                ");
                     EndContext();
@@ -337,7 +337,7 @@ using WebApplication1.Models;
                 WriteLiteral("\r\n            </li>\r\n\r\n            <!-- Nav Item - Tables -->\r\n            <li class=\"nav-item\">\r\n                ");
                 EndContext();
                 BeginContext(6572, 196, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40c3046a95e14cbd979b1ed10cad2486", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "450eb2574b8e4985817bb817ed98f238", async() => {
                     BeginContext(6645, 119, true);
                     WriteLiteral("\r\n                    <i class=\"fas fa-fw fa-table\"></i>\r\n                    <span>Car Tables</span>\r\n                ");
                     EndContext();
