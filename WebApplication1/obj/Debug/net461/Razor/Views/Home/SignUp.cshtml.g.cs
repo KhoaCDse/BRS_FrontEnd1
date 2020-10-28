@@ -80,7 +80,7 @@ using WebApplication1.Models;
                         ");
             EndContext();
             BeginContext(581, 1991, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1d2c5b56e5174e6985c2a1c769095fb1", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "78a8133f0a6e484095b57a633bd31948", async() => {
                 BeginContext(607, 1420, true);
                 WriteLiteral(@"
                             <div class=""form-label-group"">
@@ -110,7 +110,7 @@ using WebApplication1.Models;
                             ");
                 EndContext();
                 BeginContext(2027, 105, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f68d0672301543738b520f031b87462e", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0a7c47f60c664201ad5a9bf26a6b4db2", async() => {
                     BeginContext(2121, 7, true);
                     WriteLiteral("Sign In");
                     EndContext();

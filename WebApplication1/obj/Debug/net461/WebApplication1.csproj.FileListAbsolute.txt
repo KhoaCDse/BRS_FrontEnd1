@@ -371,3 +371,5 @@ C:\Users\Khoa Cao\source\repos\WebApplication1\WebApplication1\obj\Debug\net461\
 C:\Users\Khoa Cao\source\repos\WebApplication1\WebApplication1\obj\Debug\net461\Razor\Views\Home\ManageTable.cshtml.g.cs
 C:\Users\Khoa Cao\source\repos\WebApplication1\WebApplication1\obj\Debug\net461\Razor\Views\Home\BusBooking.cshtml.g.cs
 C:\Users\Khoa Cao\source\repos\WebApplication1\WebApplication1\obj\Debug\net461\Razor\Views\Home\Invoices.cshtml.g.cs
+C:\Users\Khoa Cao\source\repos\WebApplication1\WebApplication1\obj\Debug\net461\Razor\Views\Home\ListOfVehicle.cshtml.g.cs
+C:\Users\Khoa Cao\source\repos\WebApplication1\WebApplication1\obj\Debug\net461\Razor\Views\Shared\test.cshtml.g.cs

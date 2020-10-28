@@ -78,7 +78,7 @@ using WebApplication1.Models;
                         ");
             EndContext();
             BeginContext(412, 1773, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c4cae1cddc8d4045bd340655d50f1479", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fa77cf54428d4fb8b46e6e2cce3d04e4", async() => {
                 BeginContext(438, 954, true);
                 WriteLiteral(@"
                             <div class=""form-label-group"">
@@ -101,7 +101,7 @@ using WebApplication1.Models;
                 WriteLiteral("                            ");
                 EndContext();
                 BeginContext(1548, 123, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "7a628a717dac488c95a97703c3a148b3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8c69210ffb50436a9c68edd67f9141a9", async() => {
                     BeginContext(1660, 7, true);
                     WriteLiteral("Sign in");
                     EndContext();
@@ -128,7 +128,7 @@ using WebApplication1.Models;
                 WriteLiteral("\r\n                            ");
                 EndContext();
                 BeginContext(1701, 68, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "da38c30cd26a48ff829aa9e4c9030e6a", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "1fe65485e3a94838865313351cf8f63a", async() => {
                     BeginContext(1758, 7, true);
                     WriteLiteral("Sign Up");
                     EndContext();

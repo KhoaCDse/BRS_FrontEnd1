@@ -1846,6 +1846,22 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\Admin\assets\fonts\feathericon.svg" />
+    <None Include="wwwroot\Admin\assets\fonts\fontawesome-webfont3e6e.svg" />
+    <None Include="wwwroot\Admin\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\Admin\assets\js\chart.morris.js" />
+    <None Include="wwwroot\Admin\assets\js\form-validation.js" />
+    <None Include="wwwroot\Admin\assets\js\jquery-3.2.1.min.js" />
+    <None Include="wwwroot\Admin\assets\js\jquery.maskedinput.min.js" />
+    <None Include="wwwroot\Admin\assets\js\mask.js" />
+    <None Include="wwwroot\Admin\assets\js\popper.min.js" />
+    <None Include="wwwroot\Admin\assets\js\script.js" />
+    <None Include="wwwroot\Admin\assets\js\select2.min.js" />
+    <None Include="wwwroot\Admin\assets\plugins\datatables\datatables.min.js" />
+    <None Include="wwwroot\Admin\assets\plugins\datatables\jquery.dataTables.min.js" />
+    <None Include="wwwroot\Admin\assets\plugins\morris\morris.min.js" />
+    <None Include="wwwroot\Admin\assets\plugins\raphael\raphael.min.js" />
+    <None Include="wwwroot\Admin\assets\plugins\slimscroll\jquery.slimscroll.min.js" />
     <None Include="wwwroot\assets\js\bootstrap-datetimepicker.min.js" />
     <None Include="wwwroot\assets\js\bootstrap.min.js" />
     <None Include="wwwroot\assets\js\circle-progress.min.js" />
@@ -3730,7 +3746,7 @@
 
   <ItemGroup>
     <Folder Include="Views\NewFolder1\" />
-    <Folder Include="Views\NewFolder\" />
+    <Folder Include="Views\Admin Page\" />
   </ItemGroup>
 
 </Project>
